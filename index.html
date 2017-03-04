@@ -33,7 +33,25 @@
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 
+    .button2 {background-color: #008CBA;} /* Blue */
+    .button3 {background-color: #f44336;} /* Red */
+    .button4 {background-color: #e7e7e7; color: black;} /* Gray */
+    .button5 {background-color: #555555;} /* Black */
+    </style>
   </head>
 
   <body>
@@ -132,6 +150,7 @@
 
                   paper, Authors registration is compulsory.       </h3>      </div>
             </div>
+              <br> <br>
           </div>
         </div>
       </div><!-- blue-fold -->
@@ -155,7 +174,11 @@
             favor of “Principal, SKN SITS, Lonavala” payable at
             Lonavala / Pune. However, the facility of on the spot
             registration is available.
+            <br>
+            <button class="button button2"><a href="https://docs.google.com/forms/d/e/1FAIpQLScXG2c9nLzlQQ8N05sWbYQ6BvSAURV4z7Ievzt5X1hFxtY1QA/viewform">Register</button>
+
           </div>
+
       </div><!-- green-fold -->
 
       <div class="venue-fold" id="venue">
@@ -174,10 +197,10 @@
           <div class="row">
             <div class="col col-3 col-sm-8 col-md-4">
               <a href="https://www.sinhgad.edu" target="_blank">
-                <img class="spnsr" style="margin: 7vh" src="https://cms.sinhgad.edu/SIM_Web_Assets/images/sinhgad-logo-colour-blackText.png">
+                <img class="spnsr" style="margin: 4vh" src="./images/sinhgad.jpg">
               </a>
             </div>
-            <div class="col col-3 col-sm-8 col-md-4">
+            <!-- <div class="col col-3 col-sm-8 col-md-4">
               <a href="https://www.redhat.com/" target="_blank">
                 <img class="spnsr" style="margin: 4vh;" src="./images/redhat.png">
               </a>
@@ -186,7 +209,7 @@
               <a href="https://www.microsoft.com/" target="_blank">
                 <img class="spnsr" src="./images/microsoft.png">
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="b-f center p-t-100">Looking to sponsor the event?</div>
           <button class="b-f button"><a href="mailto:convener.sknsits@sinhgad.edu?subject=Sponsor for IESS Lonavala 2017" class="no-underline">Become a sponsor</a></button>
